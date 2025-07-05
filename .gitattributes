@@ -1,0 +1,7 @@
+# Treat TypeScript files as JavaScript
+*.ts linguist-language=JavaScript
+*.tsx linguist-language=JavaScript
+
+# Ignore type declaration files and config files from language stats
+*.d.ts linguist-detectable=false
+tsconfig.json linguist-detectable=false
